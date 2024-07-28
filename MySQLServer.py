@@ -6,7 +6,7 @@ try:
         host = "localhost",
         user = "root",
         password = "",
-        database = "MySQLServer"
+        database = "alx_book_store"
         )
     cursor = connection.cursor()
     cursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store ")
