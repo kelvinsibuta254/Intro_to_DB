@@ -9,7 +9,7 @@ try:
         database = "alx_book_store"
         )
     cursor = connection.cursor()
-    cursor.execute("USE alx_book_store")
+    cursor.execute("USE alx_book_store;")
     cursor.execute("SHOW TABLES")
     connection.commit()
     print("Database 'alx_book_store' created successfully!")
