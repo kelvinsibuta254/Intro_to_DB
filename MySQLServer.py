@@ -6,10 +6,10 @@ try:
         host = "localhost",
         user = "root",
         password = "",
-        database = "alx_book_store"
+        database = "MySQLServer"
         )
     cursor = connection.cursor()
-    cursor.execute("CREATE TABLE IF NOT EXISTS alx_book_store")
+    cursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store ")
     connection.commit()
     print("connection successful")
 
